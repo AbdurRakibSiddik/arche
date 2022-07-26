@@ -1,0 +1,1838 @@
+@media (min-width:1200px) {
+    #testmonial {
+        padding: 20px 0 120px;
+    }
+
+    #blog .blog_inner .overly {
+        right: -9px;
+    }
+
+    #contact_page_form .contact_form_details {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (min-width:992px) and (max-width: 1199px) {
+
+    /* ============================
+            member details page start
+    ================================*/
+    #member_page .about_main_counter .about_counter h4 {
+        font-size: 20px;
+    }
+
+    #member_page .about_main_counter .about_counter p {
+        font-size: 20px;
+    }
+
+    #member_page .about_main_counter .about_counter h4 span {
+        font-size: 50px;
+    }
+
+    /* ============================
+            member details page end
+    ================================*/
+    /* ============================
+            blog details page start
+    ================================*/
+    #blog_details_part {
+        padding: 60px 0;
+    }
+
+    #blog_details_part .date_opinion_right a {
+        margin-left: 15px;
+    }
+
+    #blog_details_part .blog_para_style h4 {
+        padding: 30px 75px !important;
+    }
+
+    #blog_details_part .services_cata_all_list .serv_cata_list ul li {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    #blog_details_part .comment_form_part {
+        margin-top: 50px;
+    }
+
+    .blog_form_part {
+        margin-top: 0px;
+    }
+
+    #blog_details_part .comment_form_part .blog_form_part form input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    /* ============================
+            blog details page end
+    ================================*/
+
+    /* ============================
+            contact page start
+    ================================*/
+    #contact_page_form .contact_map_img a {
+        left: -78px;
+    }
+
+    #contact_page_form .contact_page_info {
+        margin-top: 30px;
+    }
+
+    #contact_page_form .contact_form_details {
+        margin-top: 10px;
+    }
+
+    #contact_page_form .contact_form_details h3 {
+        margin-bottom: 0px !important;
+    }
+
+    #contact_page_form .contact_form_details textarea {
+        margin-top: 20px;
+    }
+
+    #contact_page_form .contact_form_details {
+        margin-bottom: 0px;
+    }
+
+    #contact_page_form .contact_page_info .contact_info p {
+        font-size: 15px;
+    }
+
+    /* ============================
+            contact page end
+    ================================*/
+    /* ============================
+            services page start
+    ================================*/
+    #services_category .services_cata_overly .services_cata_all_list .serv_cata_list ul li {
+        font-size: 14px;
+        color: #444;
+        font-weight: 500;
+        font-family: "Arimo", sans-serif;
+        line-height: 28px;
+    }
+
+    /* ============================
+ services page end
+================================*/
+    /* ================================
+              about page start
+    ==================================*/
+    #services .services_slider .services_inner .overly,
+    #services .services_slider_mobaile .services_inner .overly {
+        width: 330px;
+        padding: 15px 15px;
+    }
+
+    #services .services_slider .services_inner .overly h4,
+    #services .services_slider_mobaile .services_inner .overly h4 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    #testmonial {
+        padding: 20px 0 120px;
+    }
+
+    /* ================================
+              about page end
+    ==================================*/
+
+    .main_manu ul li a {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+
+    #banner_part .banner_small .banner_small_slider .banner_row .banner_small_img_txt p {
+        font-size: 15px;
+    }
+
+    #about .about_txt {
+        margin-top: 30px;
+    }
+
+    #about .about_main_counter {
+        margin-top: 30px;
+    }
+
+    #about .about_main_counter .about_counter h4 span {
+        font-size: 45px;
+    }
+
+    #about .about_main_counter .about_counter h4 {
+        font-size: 20px;
+    }
+
+    #about .about_main_counter .about_counter p {
+        font-size: 20px;
+    }
+
+    #project .project_row .project_col .project_txt h4 {
+        font-size: 18px;
+    }
+
+    #testmonial .testmonial_slider .testmonial_inner .test_txt p,
+    #testmonial .testmonial_mobaile_slider .testmonial_inner .test_txt p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #testmonial .testmonial_slider .testmonial_inner .overly,
+    #testmonial .testmonial_mobaile_slider .testmonial_inner .overly {
+        padding: 15px 0 15px 15px;
+        width: 219px;
+    }
+
+    #experts .experts_row .experts_col .experts_txt h4 {
+        font-size: 18px;
+    }
+
+    #blog {
+        padding: 80px 0;
+    }
+
+    #blog .blog_inner .overly {
+        right: -13px;
+        bottom: -20px;
+        padding: 15px 15px 15px;
+        width: 291px;
+    }
+
+    #blog .blog_inner .overly h5 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+
+    /* ============================
+            member details page start
+    ================================*/
+    #member_page .member_img {
+        margin-bottom: 0;
+    }
+
+    #member_page .member_txt {
+        margin-bottom: 0;
+    }
+
+    #member_page .about_main_counter {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+    }
+
+    #member_page .about_counter_line p::after {
+        display: none;
+    }
+
+    #member_page .about_main_counter .about_counter p {
+        font-size: 20px;
+    }
+
+    #member_page .about_main_counter .about_counter h4 {
+        font-size: 20px;
+    }
+
+    #member_page .about_main_counter .about_counter h4 span {
+        font-size: 50px;
+    }
+
+    /* ============================
+            member details page end
+    ================================*/
+    /* ============================
+            blog details page start
+    ================================*/
+    #blog_details_part {
+        padding: 50px 0;
+    }
+
+    .offset-2 {
+        margin-left: 0;
+    }
+
+    #blog_details_part .blog_para_style h4 {
+        padding: 30px 30px !important;
+    }
+
+    #blog_details_part .button_tag a {
+
+        margin-bottom: 15px;
+    }
+
+    #blog_details_part .comment_form_part {
+        margin-top: 50px;
+    }
+
+    #blog_details_part .comment_form_part .blog_form_part form input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    /* ============================
+            blog details page end
+    ================================*/
+    /* ============================
+            contact page start
+    ================================*/
+    #contact_page_form .contact_page_info {
+        margin-top: 30px;
+    }
+
+    #contact_page_form .contact_page_info .contact_info p span {
+        display: inline;
+    }
+
+    #contact_page_form .contact_page_info .contact_info p {
+        margin-bottom: 20px !important;
+    }
+
+    #contact_page_form .contact_form_details input {
+        width: 100%;
+    }
+
+    /* ============================
+            contact page end
+    ================================*/
+    /* ============================
+            services page start
+    ================================*/
+    #services_category {
+        padding: 40px 0;
+    }
+
+    #services_category .services_cata_overly .services_cata_overly_txt h3 {
+        font-size: 20px;
+    }
+
+    #services_category .services_cata_overly .serv_cata_txt {
+        margin-top: 30px;
+    }
+
+    #services_category .services_cata_overly .services_cata_all_list {
+        margin-top: 30px;
+    }
+
+
+    /* ============================
+            services page end
+    ================================*/
+    #header .header_right p span {
+        padding-left: 10px;
+    }
+
+    #header .header_right p {
+        font-size: 14px;
+    }
+
+    #header .header_left h6 {
+        font-size: 10px;
+    }
+
+    /* ============================
+              manu part start
+    ================================*/
+    .navbar-toggler:focus {
+        box-shadow: none;
+        border: 1px solid #D9B257;
+        border-radius: 0;
+        color: #D9B257;
+        padding-top: 10px;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+        border-top: 2px solid #D9B257;
+    }
+
+    .main_manu ul li a {
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .main_manu ul li .sub_manu {
+        left: 50%;
+        display: none;
+        bottom: 0;
+        transform: translateX(-50%);
+    }
+
+    .main_manu ul li:hover .sub_manu {
+        display: block;
+        bottom: -192px;
+    }
+
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-toggler-icon {
+        color: #D9B257;
+    }
+
+    .main_manu .manu_form {
+        position: absolute;
+        left: 258px;
+        top: 37px;
+    }
+
+    .main_manu .manu_form input {
+        border: 1px solid #999;
+        width: 155px;
+        margin-left: 30px;
+    }
+
+    /* ============================
+              manu part end
+    ================================*/
+    /* ============================
+              banner part start
+    ================================*/
+    #banner_part .banner_small .banner_small_slider .banner_row .banner_small_img_txt h2 {
+        font-size: 20px;
+    }
+
+    #banner_part .banner_small .banner_small_slider .banner_row .banner_small_img_txt p {
+        font-size: 12px;
+    }
+
+    #banner_part .banner_small .banner_small_slider .banner_row .banner_small_img_txt span {
+        font-size: 12px;
+    }
+
+    /* ============================
+              banner part end
+    ================================*/
+    /* ============================
+              about part start
+    ================================*/
+    .offset-1 {
+        margin-left: 0;
+    }
+
+    #about .about_txt {
+        margin-top: 30px;
+    }
+
+    #about .about_txt h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    #about .about_txt p {
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 8px !important;
+    }
+
+    #about .about_main_counter {
+        margin-top: 30px;
+    }
+
+    #about .about_main_counter .about_counter h4 span {
+        font-size: 30px;
+    }
+
+    #about .about_main_counter .about_counter h4 {
+        font-size: 18px;
+    }
+
+    #about .about_main_counter .about_counter p {
+        font-size: 18px;
+    }
+
+    #about .about_counter_line {
+        margin-bottom: 30px !important;
+    }
+
+    #about .about_counter_line p::after {
+        bottom: -17px;
+        height: 2px;
+    }
+
+    #about .about_txt a {
+        margin-bottom: 30px;
+    }
+
+    /* ============================
+              about part end
+    ================================*/
+    /* ============================
+              services part start
+    ================================*/
+    #services .services_slider .services_inner,
+    #services .services_slider_mobaile .services_inner {
+        margin: 0 15px;
+    }
+
+    #services .services_slider .services_inner .overly,
+    #services .services_slider_mobaile .services_inner .overly {
+        bottom: -20px;
+        right: -14px;
+        width: 220px;
+        padding: 20px 20px;
+    }
+
+    #services .services_slider .services_inner .overly h6,
+    #services .services_slider_mobaile .services_inner .overly h6 {
+        font-size: 14px;
+    }
+
+    #services .services_slider .services_inner .overly h4,
+    #services .services_slider_mobaile .services_inner .overly h4 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    #services .services_slider .services_inner .overly a,
+    #services .services_slider_mobaile .services_inner .overly a {
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    #services .services_slider .services_inner .overly a:hover::after,
+    #services .services_slider_mobaile .services_inner .overly a:hover::after {
+        height: 40px;
+    }
+
+    #services .services_slider,
+    #services .services_slider_mobaile {
+        margin-top: 40px;
+    }
+
+    /* ============================
+              services part end
+    ================================*/
+    /* ============================
+              project part start
+    ================================*/
+    #project .project_row .project_col .project_txt h4 {
+        font-size: 12px;
+    }
+
+    #project .project_row .project_col .project_txt p {
+        font-size: 12px;
+    }
+
+    /* ============================
+              project part end
+    ================================*/
+    /* ============================
+              testmonial part start
+    ================================*/
+    #testmonial {
+        padding: 0px 0 120px;
+    }
+
+    #testmonial .testmonial_slider .testmonial_inner .test_txt p,
+    #testmonial .testmonial_mobaile_slider .testmonial_inner .test_txt p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    #testmonial .testmonial_slider .testmonial_inner,
+    #testmonial .testmonial_mobaile_slider .testmonial_inner {
+        padding: 15px 15px 85px;
+        margin: 0 12px;
+    }
+
+    #testmonial .testmonial_slider .testmonial_inner .overly,
+    #testmonial .testmonial_mobaile_slider .testmonial_inner .overly {
+        bottom: -12px;
+        right: -12px;
+        padding: 15px 0 15px 15px;
+        width: 157px;
+    }
+
+    #testmonial .testmonial_slider .testmonial_inner .overly h4,
+    #testmonial .testmonial_mobaile_slider .testmonial_inner .overly h4 {
+        font-size: 14px;
+    }
+
+    #testmonial .testmonial_slider .testmonial_inner .overly h6,
+    #testmonial .testmonial_mobaile_slider .testmonial_inner .overly h6 {
+        font-size: 12px;
+    }
+
+    #testmonial .testmonial_slider .testmonial_inner .overly i,
+    #testmonial .testmonial_mobaile_slider .testmonial_inner .overly i {
+        font-size: 12px;
+    }
+
+    /* ============================
+              testmonial part end
+    ================================*/
+    /* ============================
+              expert part start
+    ================================*/
+    #experts {
+        padding: 40px 0;
+    }
+
+    #experts .experts_row {
+        margin-top: 40px;
+    }
+
+    #experts .experts_row .experts_col .experts_txt p {
+        font-size: 12px;
+    }
+
+    #experts .experts_row .experts_col .experts_txt h4 {
+        font-size: 13px;
+    }
+
+    #experts .pro_btn a {
+        margin-top: 0px;
+    }
+
+    /* ============================
+              expert part end
+    ================================*/
+    /* ============================
+              blogs part start
+    ================================*/
+    #blog {
+        padding: 40px 0 80px;
+    }
+
+    #blog .blog_inner {
+        margin-top: 40px;
+    }
+
+    #blog .blog_inner .overly {
+        right: -15px;
+        bottom: -15px;
+        padding: 15px 15px 15px;
+        width: 230px;
+    }
+
+    #blog .blog_inner .overly h6 {
+        font-size: 12px;
+    }
+
+    #blog .blog_inner .overly h5 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 5px;
+    }
+
+    #blog .blog_inner .overly a {
+        font-size: 14px;
+        line-height: 38px;
+    }
+
+    #blog .blog_inner .overly a:hover::after {
+        height: 38px;
+    }
+
+    /* ============================
+              blogs part end
+    ================================*/
+    /* ============================
+              footer part start
+    ================================*/
+    #footer_part {
+        padding: 40px 0;
+    }
+
+    #footer_part .foot_left p {
+        margin-top: 30px !important;
+    }
+
+    #footer_part .foot_middle p {
+        font-size: 14px;
+        margin-top: 10px !important;
+    }
+
+    #footer_part .foot_last form input {
+        padding: 6px 15px;
+    }
+
+    #footer_part .foot_last form button {
+        font-size: 17px;
+        padding: 6px 15px;
+    }
+
+    #footer_part .foot_last h5 {
+        font-size: 20px;
+        margin-top: 10px !important;
+    }
+
+    #footer_part .foot_last a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-top: 7px;
+    }
+
+    #footer_part .foot_last p {
+        margin-top: 10px !important;
+    }
+
+    /* ============================
+              footer part end
+    ================================*/
+
+}
+
+@media (min-width:576px) and (max-width: 767px) {
+
+
+    /* ============================
+            member details page start
+    ================================*/
+    #member_page .member_img {
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    #member_page .member_img ul li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    #member_page .member_txt {
+        margin-top: 45px;
+        margin-bottom: 0px;
+    }
+
+    #member_page .member_txt p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 0px !important;
+    }
+
+    #member_page .member_txt h2 {
+        font-size: 20px;
+        margin-top: 10px !important;
+        margin-bottom: 0px !important;
+    }
+
+    #member_page .member_txt h4 {
+        line-height: 26px;
+    }
+
+    #member_page .about_main_counter {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #member_page .about_main_counter .about_counter h4 {
+        font-size: 20px;
+    }
+
+    #member_page .about_main_counter .about_counter h4 span {
+        font-size: 40px;
+    }
+
+    #member_page .about_main_counter .about_counter p {
+        font-size: 20px;
+    }
+
+    #member_page .about_counter_line p::after {
+        display: none;
+    }
+
+    #member_page .about_counter_line {
+        margin-bottom: 0px !important;
+    }
+
+    .about_main_counter.text-center {
+        display: flex;
+    }
+
+    /* ============================
+            member details page end
+    ================================*/
+    /* ============================
+            blog details page start
+    ================================*/
+    #blog_details_part {
+        padding: 40px 0;
+    }
+
+    #blog_details_part .head_line h3 {
+        font-size: 25px;
+    }
+
+    .offset-2 {
+        margin-left: 0;
+    }
+
+    #blog_details_part .date_opinion_right a {
+        margin-left: 6px;
+    }
+
+    #blog_details_part .date_opinion a {
+        font-size: 13px;
+    }
+
+    #blog_details_part .blog_para_style h4 {
+        padding: 30px 26px !important;
+    }
+
+    #blog_details_part .blog_para_style {
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    #blog_details_part .services_cata_all_list {
+        margin-top: 20px;
+    }
+
+    #blog_details_part .services_cata_all_list .serv_cata_list ul li {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    #blog_details_part .button_tag {
+        margin-top: 40px;
+    }
+
+    #blog_details_part .button_tag a {
+        margin-bottom: 10px;
+    }
+
+    #blog_details_part .comment_form_part {
+        margin-top: 40px;
+    }
+
+    .blog_form_part {
+        margin-top: 20px;
+    }
+
+    #blog_details_part .comment_form_part .blog_form_part form input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    /* ============================
+            blog details page end
+    ================================*/
+    /* ============================
+            contact page start
+    ================================*/
+    #contact_page_form .contact_map_img a {
+        left: -78px;
+    }
+
+    #contact_page_form .contact_page_info .contact_info p span {
+        display: inline;
+    }
+
+    #contact_page_form .contact_page_info .contact_info p {
+        margin-bottom: 10px !important;
+    }
+
+    #contact_page_form .contact_form_details {
+        margin-top: 30px;
+    }
+
+    #contact_page_form .contact_form_details input {
+        width: 518px;
+    }
+
+    /* ============================
+            contact page end
+    ================================*/
+
+    /* ============================
+            services page start
+    ================================*/
+    #services_category {
+        padding: 40px 0;
+    }
+
+    #services_category .services_cata_overly .services_cata_overly_txt h3 {
+        font-size: 20px;
+    }
+
+    #services_category .services_cata_overly .serv_cata_txt {
+        margin-top: 30px;
+    }
+
+    #services_category .services_cata_overly .services_cata_all_list {
+        margin-top: 30px;
+    }
+
+
+    /* ============================
+            services page end
+    ================================*/
+
+    /* ============================
+              about us page start
+    ================================*/
+    .about_txt {
+        margin-top: 40px !important;
+    }
+
+    #about .about_txt p {
+        text-align: justify;
+    }
+
+    #about .about_main_counter {
+        margin-top: 0px;
+    }
+
+    #about .about_main_counter .about_counter p {
+        font-size: 18px !important;
+    }
+
+    .about_txt.d-md-none {
+        margin-bottom: 0px !important;
+        margin-top: 15px !important;
+    }
+
+    #about_bottom_part {
+        padding: 0px 0 50px;
+    }
+
+    #about_bottom_part .about_bottom_part .niche_nam_beta {
+        margin-bottom: 30px;
+    }
+
+    .about_bottom_img {
+        margin-top: 30px;
+    }
+
+    /* ============================
+              about us page end
+    ================================*/
+
+    /* ============================
+              header part start
+    ================================*/
+    #header {
+        display: none;
+    }
+
+    /* ============================
+              header part end
+    ================================*/
+    /* ============================
+              manu part start
+    ================================*/
+    .navbar-toggler:focus {
+        box-shadow: none;
+        border: 1px solid #D9B257;
+        border-radius: 0;
+        color: #D9B257;
+        padding-top: 10px;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+        border-top: 2px solid #D9B257;
+    }
+
+    .main_manu ul li a {
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .main_manu ul li .sub_manu {
+        left: 50%;
+        display: none;
+        bottom: 0;
+        transform: translateX(-50%);
+    }
+
+    .main_manu ul li:hover .sub_manu {
+        display: block;
+        bottom: -192px;
+    }
+
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-toggler-icon {
+        color: #D9B257;
+    }
+
+    .main_manu .manu_form {
+        position: absolute;
+        left: 169px;
+        top: 37px;
+    }
+
+    .main_manu .manu_form input {
+        border: 1px solid #999;
+        width: 155px;
+        margin-left: 30px;
+    }
+
+    /* ============================
+              manu part end
+    ================================*/
+    /* ============================
+              about part start
+    ================================*/
+    .about_img {
+        display: none;
+    }
+
+    #about .about_txt {
+        margin-top: 40px;
+    }
+
+    #about .about_txt a {
+        margin-bottom: 40px;
+    }
+
+    .offset-1 {
+        margin-left: 0%;
+    }
+
+    #about .about_main_counter {
+        margin-top: 18px;
+    }
+
+    #about .about_main_counter .about_counter h4 {
+        font-size: 20px;
+    }
+
+    #about .about_main_counter .about_counter h4 span {
+        font-size: 35px;
+    }
+
+    #about .about_main_counter .about_counter p {
+        font-size: 20px;
+    }
+
+    #about .about_txt {
+        margin-top: 2px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    /* ============================
+              about part end
+    ================================*/
+    /* ============================
+              services part start
+    ================================*/
+    #services {
+        padding: 40px 0 80px;
+    }
+
+    #services .services_slider,
+    #services .services_slider_mobaile {
+        margin-top: 40px;
+    }
+
+    #services .services_slider .slick-dots,
+    #services .services_slider_mobaile .slick-dots {
+        bottom: -40px;
+    }
+
+    /* ============================
+              services part end
+    ================================*/
+    /* ============================
+              project part start
+    ================================*/
+    #project {
+        padding: 40px 0;
+    }
+
+    #project .project_row {
+        margin-top: 30px;
+    }
+
+    #project .project_row .project_col {
+        max-width: 47.6%;
+        margin-right: 24px;
+    }
+
+    #project .project_row .project_col:nth-child(2),
+    #project .project_row .project_col:nth-child(4),
+    #project .project_row .project_col:nth-child(6),
+    #project .project_row .project_col:nth-child(8) {
+        margin-right: 0px;
+    }
+
+    #project .pro_btn a {
+        margin-top: 30px;
+    }
+
+    /* ============================
+              project part end
+    ================================*/
+    /* ============================
+              testmonial part start
+    ================================*/
+    #testmonial {
+        padding: 40px 0 70px;
+    }
+
+    #testmonial .testmonial_slider .slick-dots,
+    #testmonial .testmonial_mobaile_slider .slick-dots {
+        bottom: -40px;
+    }
+
+    #testmonial .testmonial_slider .testmonial_inner .overly,
+    #testmonial .testmonial_mobaile_slider .testmonial_inner .overly {
+        right: 1px;
+        padding: 20px 0 20px 20px;
+        width: 240px;
+    }
+
+    #testmonial .testmonial_slider .testmonial_inner .overly h6,
+    #testmonial .testmonial_mobaile_slider .testmonial_inner .overly h6 {
+        padding: 6px 0 !important;
+    }
+
+    /* ============================
+              testmonial part end
+    ================================*/
+    /* ============================
+              expert part start
+    ================================*/
+    #experts {
+        padding: 40px 0;
+    }
+
+    #experts .experts_row .experts_col {
+        max-width: 47.6%;
+        margin-right: 24px;
+    }
+
+    #experts .experts_row .experts_col:nth-child(2),
+    #experts .experts_row .experts_col:nth-child(4) {
+        margin-right: 0px;
+    }
+
+    /* ============================
+              expert part end
+    ================================*/
+    /* ============================
+             blog part start
+   ================================*/
+    #blog {
+        padding: 40px 0;
+    }
+
+    #blog .blog_inner .overly {
+        right: -12px;
+        bottom: -15px;
+        padding: 15px 15px 15px;
+        width: 203px;
+    }
+
+    #blog .blog_inner .overly h5 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    #blog .blog_inner .overly h6 {
+        font-size: 10px;
+    }
+
+    #blog .blog_inner .overly a {
+        font-size: 12px;
+        margin-top: 5px;
+        line-height: 28px;
+    }
+
+    #blog .blog_inner .overly a:hover::after {
+        height: 28px;
+    }
+
+    #blog .blog_inner {
+        margin-top: 40px;
+    }
+
+    /* ============================
+              blog part end
+    ================================*/
+    /* ============================
+              footer part start
+    ================================*/
+    #footer_part .foot_left p {
+        margin-top: 20px !important;
+    }
+
+    .foot_left.text-center {
+        margin-bottom: 35px;
+        border-bottom: 2px solid #fff;
+        padding-bottom: 30px;
+    }
+
+    #footer_part .foot_last h4 {
+        font-size: 22px;
+    }
+
+    #footer_part .foot_middle p {
+        font-size: 16px;
+        margin-left: 30px !important;
+        margin-top: 15px !important;
+    }
+
+    #footer_part .foot_middle p i {
+        left: -29px;
+    }
+
+    #footer_part .foot_last form button {
+        font-size: 12px;
+    }
+
+    #footer_part .foot_last form input {
+        padding: 6px 15px;
+    }
+
+    #footer_part .foot_last h5 {
+        font-size: 22px;
+        margin-top: 15px !important;
+    }
+
+    #footer_part .foot_last a {
+        margin-top: 10px;
+    }
+
+    #footer_part .foot_last p {
+        margin-top: 5px !important;
+    }
+
+    /* ============================
+              footer part end
+    ================================*/
+}
+
+@media (max-width: 575.99px) {
+    #error_404 {
+        overflow-x: hidden;
+        padding: 100px 0;
+    }
+
+    #error_404 .error_banner_img h3 {
+        padding: 35px 0 35px 0 !important;
+    }
+
+    /* ============================
+              member details page start
+    ================================*/
+    #member_page .member_img {
+        margin-top: 40px;
+    }
+
+    #member_page .member_img ul li {
+        display: inline;
+    }
+
+    #member_page .member_img ul li a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    #member_page .member_img ul {
+        right: 33px !important;
+        top: 96% !important;
+    }
+
+    #member_page .member_img {
+        margin-bottom: 0px;
+    }
+
+    #member_page .member_txt {
+        margin-top: 45px;
+        margin-bottom: 0px;
+    }
+
+    #member_page .member_txt p span {
+        margin-top: 10px !important;
+    }
+
+    #member_page .member_txt h2 {
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+    }
+
+    #member_page .member_txt h4 {
+        line-height: 15px;
+    }
+
+    #member_page .about_main_counter {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #member_page .about_main_counter .about_counter h4 {
+        font-size: 18px;
+    }
+
+    #member_page .about_main_counter .about_counter h4 span {
+        font-size: 30px;
+    }
+
+    #member_page .about_main_counter .about_counter p {
+        font-size: 18px;
+    }
+
+    #member_page .about_counter_line {
+        width: 50%;
+        float: left;
+    }
+
+    /* ============================
+              member details page end
+    ================================*/
+    /* ============================
+              blog details page start
+    ================================*/
+    #blog_details_part {
+        padding: 40px 0;
+    }
+
+    #blog_details_part .head_line h3 {
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+    .offset-2 {
+        margin-left: 0;
+    }
+
+    #blog_details_part .date_opinion_right a {
+        margin-left: -2px;
+    }
+
+    #blog_details_part .blog_details_banner {
+        margin-top: 30px;
+    }
+
+    #blog_details_part .blog_para p {
+        line-height: 24px;
+    }
+
+    #blog_details_part .blog_para_style h4 {
+        font-size: 15px;
+        line-height: 24px;
+        padding: 20px 10px !important;
+    }
+
+    #blog_details_part .blog_para_style {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    #blog_details_part .services_cata_all_list {
+        margin-top: 20px;
+    }
+
+    #blog_details_part .services_cata_all_list .serv_cata_list ul li {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #blog_details_part .button_tag {
+        margin-top: 20px;
+    }
+
+    #blog_details_part .button_tag a {
+        margin-bottom: 10px;
+    }
+
+    #blog_details_part .share_icon a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin-left: 5px;
+    }
+
+    #blog_details_part .comment_form_part {
+        margin-top: 30px;
+    }
+
+    .blog_form_part {
+        margin-top: 30px;
+    }
+
+    #blog_details_part .comment_form_part .blog_form_part form input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    /* ============================
+              blog details page end
+    ================================*/
+    /* ============================
+              blog page start
+    ================================*/
+    #blog {
+        padding: 0px 0 50px !important;
+    }
+
+    #blog .blog_inner {
+        margin-top: 40px;
+        position: relative;
+    }
+
+    #pagination {
+        padding-bottom: 40px;
+    }
+
+    #pagination .projecj_pagination .page-item .page-link {
+        width: 40px;
+        height: 40px;
+        line-height: 26px;
+    }
+
+    /* ============================
+              blog page end
+    ================================*/
+    /* ============================
+              contact page start
+    ================================*/
+    #contact_page_form .contact_map_img a {
+        left: -46px;
+    }
+
+    #contact_page_form .contact_page_info {
+        margin-top: 30px;
+    }
+
+    #contact_page_form .contact_page_info .contact_info p {
+        font-size: 14px;
+        margin-bottom: 15px !important;
+    }
+
+    #contact_page_form .contact_form_details {
+        margin-top: 30px;
+    }
+
+    #contact_page_form .contact_form_details input {
+        width: 295px;
+        height: 40px;
+    }
+
+    #contact_page_form .contact_form_details textarea {
+        margin-top: 20px;
+    }
+
+    /* ============================
+              contact page end
+    ================================*/
+    /* ============================
+              services page start
+    ================================*/
+    #services_category {
+        padding: 40px 0;
+    }
+
+    #services_category .services_cata_overly .services_cata_overly_txt h3 {
+        font-size: 20px;
+    }
+
+    #services_category .services_cata_overly .serv_cata_txt {
+        margin-top: 30px;
+        text-align: justify;
+    }
+
+    #services_category .services_cata_overly .services_cata_all_list .serv_cata_list ul li {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    #services_category .services_cata_overly .services_cata_all_list {
+        margin-top: 20px;
+    }
+
+    /* ============================
+              services page end
+    ================================*/
+    /* ============================
+              about us page start
+    ================================*/
+    #about_banner {
+        padding: 30px 0;
+    }
+
+    #about_banner .bread h4 {
+        font-size: 35px;
+    }
+
+    #about_bottom_part {
+        padding: 0px 0 40px;
+    }
+
+    #about_bottom_part .about_bottom_part .niche_nam_beta {
+        margin-bottom: 30px;
+    }
+
+    /* ============================
+              about us page end
+    ================================*/
+    /* ============================
+              home page start
+    ================================*/
+    /* ============================
+              header part start
+    ================================*/
+    #header {
+        display: none;
+    }
+
+    /* ============================
+              header part end
+    ================================*/
+    /* ============================
+              manu part start
+    ================================*/
+    .navbar-toggler:focus {
+        box-shadow: none;
+        border: 1px solid #D9B257;
+        border-radius: 0;
+        color: #D9B257;
+        padding-top: 10px;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+        border-top: 2px solid #D9B257;
+    }
+
+    .main_manu ul li a {
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .main_manu ul li .sub_manu {
+        left: 50%;
+        display: none;
+        bottom: 0;
+        transform: translateX(-50%);
+    }
+
+    .main_manu ul li:hover .sub_manu {
+        display: block;
+        bottom: -192px;
+    }
+
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .navbar-toggler-icon {
+        color: #D9B257;
+    }
+
+    /* ============================
+              manu part end
+    ================================*/
+    /* ============================
+              banner part start
+    ================================*/
+    #banner_part .banner_img img {
+        height: 420px;
+    }
+
+    #banner_part .banner_img .overly h1 {
+        font-size: 40px;
+    }
+
+    #banner_part .banner_img .overly h1 span {
+        font-size: 40px;
+    }
+
+    #banner_part .banner_img .overly a {
+        margin-top: 20px;
+    }
+
+    /* ============================
+              banner part end
+    ================================*/
+    /* ============================
+              about part start
+    ================================*/
+    #about {
+        overflow-x: hidden !important;
+        padding-bottom: 60px;
+    }
+
+    .offset-1 {
+        margin-left: 0%;
+    }
+
+    #about .about_txt {
+        margin-top: 35px;
+    }
+
+    #about .about_txt h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    #about .about_txt p {
+        line-height: 24px;
+    }
+
+    #about .about_main_counter {
+        margin-top: 16px;
+    }
+
+    #about .about_main_counter .about_counter h4 span {
+        font-size: 20px;
+    }
+
+    #about .about_main_counter .about_counter h4 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    #about .about_main_counter .about_counter p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    #about .about_main_counter .about_counter .span_last {
+        margin-right: 18px;
+    }
+
+    .about_txt.d-md-none {
+        margin-top: -14px !important;
+        text-align: center;
+    }
+
+    /* ============================
+              about part end
+    ================================*/
+    /* ============================
+              services part start
+    ================================*/
+    #services {
+        padding: 50px 0 0 0px;
+    }
+
+    #services .services_head h3 {
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+    .services_img {
+        padding: 0 15px;
+    }
+
+    #services .services_slider .services_inner .overly h6,
+    #services .services_slider_mobaile .services_inner .overly h6 {
+        font-size: 14px;
+    }
+
+    #services .services_slider .services_inner .overly h4,
+    #services .services_slider_mobaile .services_inner .overly h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #services .services_slider .services_inner .overly a,
+    #services .services_slider_mobaile .services_inner .overly a {
+        font-size: 14px;
+        font-weight: 400;
+        position: relative;
+        line-height: 34px;
+    }
+
+    #services .services_slider .services_inner .overly a:hover::after,
+    #services .services_slider_mobaile .services_inner .overly a:hover::after {
+        height: 34px;
+    }
+
+    #services .services_slider .services_inner .overly,
+    #services .services_slider_mobaile .services_inner .overly {
+        right: 0px;
+        bottom: -15px;
+        width: 218px;
+        padding: 10px 10px;
+    }
+
+    #services .services_slider .draggable,
+    #services .services_slider_mobaile .draggable {
+        padding-bottom: 100px;
+    }
+
+    #services .services_slider,
+    #services .services_slider_mobaile {
+        margin-top: 40px;
+    }
+
+    #services .services_slider .slick-dots,
+    #services .services_slider_mobaile .slick-dots {
+        bottom: 45px;
+    }
+
+    /* ===========================
+              services part end
+    ================================*/
+    /* ============================
+              project part start
+    ================================*/
+    #project .project_head h3 {
+        font-size: 20px;
+        line-height: 22px;
+        margin-top: 5px !important;
+    }
+
+    #project .project_row .project_col {
+        max-width: 100%;
+    }
+
+    #project .project_row .project_col .over_tow {
+        margin-left: 0px;
+    }
+
+    /* ============================
+              project part end
+    ================================*/
+    /* ============================
+              testmonial part start
+    ================================*/
+    #testmonial {
+        padding: 0px 0 120px;
+    }
+
+    #testmonial .testmonial_head h3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    #testmonial .testmonial_slider .testmonial_inner,
+    #testmonial .testmonial_mobaile_slider .testmonial_inner {
+        padding: 15px 15px 90px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #testmonial .testmonial_slider .testmonial_inner .overly,
+    #testmonial .testmonial_mobaile_slider .testmonial_inner .overly {
+        bottom: -15px;
+        right: -15px;
+        padding: 15px 0 15px 15px;
+        width: 195px;
+    }
+
+    #testmonial .testmonial_slider .slick-dots,
+    #testmonial .testmonial_mobaile_slider .slick-dots {
+        bottom: -50px;
+    }
+
+    #testmonial .testmonial_slider .testmonial_inner .test_txt p,
+    #testmonial .testmonial_mobaile_slider .testmonial_inner .test_txt p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    /* ============================
+              testmonial part end
+    ================================*/
+    /* ============================
+              experts part start
+    ================================*/
+    #experts .expert_head h3 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 5px !important;
+    }
+
+    #experts .experts_row .experts_col {
+        max-width: 100%;
+    }
+
+    /* ============================
+              experts part end
+    ================================*/
+    /* ============================
+              blogs part start
+    ================================*/
+    #blog {
+        padding: 50px 0 !important;
+    }
+
+    #blog .blog_head h3 {
+        font-size: 20px;
+        line-height: 22px;
+        margin-top: 5px !important;
+    }
+
+    .blog_img {
+        padding: 0 15px;
+    }
+
+    #blog .blog_inner .overly {
+        right: 0px;
+        bottom: -15px;
+        padding: 15px 15px 15px;
+        width: 245px;
+    }
+
+    #blog .blog_inner .overly h6 {
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 5px !important;
+    }
+
+    #blog .blog_inner .overly h5 {
+        font-size: 19px;
+        line-height: 24px;
+    }
+
+    #blog .blog_inner .overly a {
+        font-size: 15px;
+    }
+
+    /* ============================
+              blogs part end
+    ================================*/
+    /* ============================
+              footer part start
+    ================================*/
+    #footer_part .foot_left p {
+        font-size: 14px;
+        padding-bottom: 20px !important;
+        margin-top: 35px !important;
+        border-bottom: 1px solid #fff;
+    }
+
+    .foot_middle {
+        margin-top: 25px;
+    }
+
+    #footer_part .foot_middle h4 {
+        margin-bottom: 20px !important;
+    }
+
+    #footer_part .foot_middle p {
+        font-size: 16px;
+        margin-top: 20px !important;
+    }
+
+    .foot_last {
+        margin-top: 30px;
+    }
+
+    #footer_part .foot_last h4 {
+        margin-bottom: 30px !important;
+    }
+
+    #footer_part .foot_last h5 {
+        margin-top: 20px !important;
+    }
+
+    /* ============================
+              footer part end
+    ================================*/
+    /* ============================
+              home page end
+    ================================*/
+}

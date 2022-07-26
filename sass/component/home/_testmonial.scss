@@ -1,0 +1,94 @@
+#testmonial{
+   padding: 60px 0 120px;
+    .testmonial_head{
+        
+        h5 {
+            @include ts(16px, $hover, 600, $monts);
+        }
+
+        h3 {
+            @include ts(28px, #999, 400, $monts);
+            line-height: 34px;
+        }
+    }
+    .slick-slide{
+        img{
+            display: inline-block;
+        }
+    }
+    .testmonial_slider,
+    .testmonial_mobaile_slider{
+        margin-top: 60px;
+        .draggable{
+            padding: 0 0 35px 0;
+        }
+        .slick-dots {
+            display: flex;
+            position: absolute;
+            left: 50%;
+            bottom: -70px;
+            transform: translateX(-50%);
+            width: 100px;
+
+            li {
+                button {
+                    font-size: 0;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 100%;
+                    border: 1px solid #999;
+                    margin: 0 5px;
+                    background: transparent;
+                }
+
+               
+            }
+        }
+        .testmonial_inner{
+            background: #f5f5f5;
+            padding: 45px 30px 30px;
+            position: relative;
+            margin-left: 13px;
+            .test_txt{
+                p{
+                    @include ts(20px, #444, 400, $lato);  
+                    line-height: 30px;
+                }
+                span{
+                    font-family: "autograph";
+                    color: $hover;
+                }
+            }
+            .overly{
+                position: absolute;
+                bottom: -30px;
+                right: -60px;
+                background: $hover;
+                padding: 45px 0 30px 30px;
+                width: 270px;
+                h4{
+                    @include ts(20px, #fff, 500, $monts); 
+                }
+                h6{
+                    @include ts(16px, #fff, 400, $monts); 
+                    margin-top: 5px !important;
+                }
+                i{
+                    color: #fff;
+                }
+            }
+        }
+        .slick-active{
+            button {
+                font-size: 0;
+                width: 18px !important;
+                height: 18px !important;
+                border-radius: 100%;
+                border: 1px solid $hover !important;
+                margin: 0 5px;
+                background: $hover !important;
+                margin-top: 10px !important;
+            }
+        }
+    }
+}

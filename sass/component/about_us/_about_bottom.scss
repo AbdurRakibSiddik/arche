@@ -1,0 +1,19 @@
+#about_bottom_part{
+    padding: 100px 0;
+    .about_bottom_part{
+        .about_bottom_part_txt{
+            margin-top: 30px;
+            p{
+                @include ts(16px, #444, 400, $lato);
+                line-height: 26px;
+                span{
+                    display: block;
+                    margin-top: 30px;
+                }
+            }
+        }
+        .niche_nam_beta{
+            margin-top: 30px;
+        }
+    }
+}

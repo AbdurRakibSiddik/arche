@@ -1,0 +1,40 @@
+#header {
+    background: #D9B257;
+    height: 50px;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        background: url(../../../images/header_shape.png) no-repeat center/cover;
+        height: 89px;
+        z-index: -1;
+    }
+
+    .header_left {
+        h6 {
+            @include ts(16px, #fff, 400, $lato);
+            line-height: 50px;
+        }
+    }
+
+    .header_right {
+        p {
+            line-height: 50px;
+            text-align: right;
+            @include ts(16px, #fff, 400, $lato);
+
+            span {
+                padding-left: 30px;
+
+                i {
+                    padding-right: 5px;
+                }
+            }
+        }
+    }
+
+}

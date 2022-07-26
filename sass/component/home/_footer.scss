@@ -1,0 +1,120 @@
+#footer_part {
+    padding: 60px 0;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden !important;
+
+    &::after {
+        @include ab(0, 0, 100%, 100%, rgba(0, 0, 0, 0.7));
+        z-index: -1;
+    }
+
+    .foot_left {
+        p {
+            @include ts(14px, #777, 400, $arimo);
+            margin-top: 60px !important;
+        }
+    }
+
+    .foot_middle {
+        h4 {
+            @include ts(24px, #fff, 400, $monts);
+            margin-bottom: 40px !important;
+        }
+
+        p {
+            @include ts(19px, #fff, 400, $arimo);
+            margin-left: 45px !important;
+            margin-top: 40px !important;
+            position: relative;
+
+            &:first-child {
+                margin-top: 0 !important;
+            }
+
+            i {
+                position: absolute;
+                left: -45px;
+                top: 20px;
+            }
+
+            span {
+                display: block;
+            }
+        }
+    }
+
+    .foot_last {
+        h4 {
+            @include ts(24px, #fff, 400, $monts);
+            margin-bottom: 40px !important;
+        }
+
+        form {
+            position: relative;
+
+            input {
+                background: transparent;
+                border: 1px solid $hover;
+                width: 100%;
+                padding: 12px 15px;
+
+                &::placeholder {
+                    @include ts(14px, #fff, 400, $monts);
+                    font-style: italic;
+                }
+
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+
+            button {
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: $hover;
+                @include ts(20px, #fff, 500, $monts);
+                padding: 10px 15px;
+                outline: none;
+                border: none;
+
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+        }
+
+        h5 {
+            @include ts(24px, #fff, 400, $monts);
+            margin-top: 40px !important;
+        }
+
+        a {
+            width: 40px;
+            height: 40px;
+            border: 1px solid $hover;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            margin-top: 20px;
+            margin-right: 10px;
+            transition: all linear 0.3s;
+
+            i {
+                color: #fff;
+                font-size: 16px;
+            }
+
+            &:hover {
+                background: $hover;
+
+            }
+        }
+
+        p {
+            @include ts(14px, #777, 400, $arimo);
+            margin-top: 20px !important;
+        }
+    }
+}

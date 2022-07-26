@@ -1,0 +1,90 @@
+#member_page{
+    overflow-x: hidden;
+    .member_img{
+        position: relative;
+        margin-top: 91px;
+        margin-bottom: 91px;
+       
+        ul{
+                position: absolute;
+                right: -20px;
+                top: 40px;
+            li{
+                margin: 10px 0;
+                a{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                text-align: center;
+                line-height: 60px;
+                    background: #fff;
+                    color: #444;
+                    transition: all linear 0.3s;
+                    box-shadow: 2px 0px 5px -3px #000;
+                    &:hover{
+                        background: $hover;
+                        color:#fff;
+
+                    }
+                }
+            }
+        }
+    }
+    .member_txt{
+        margin-top: 91px;
+        margin-bottom: 91px;
+        h5{
+            @include ts(16px, $hover, 600, $monts);
+        }
+        h4{
+            @include ts(20px, $hover, 500, $monts);
+            line-height: 28px;
+        }
+       
+        p{
+            @include ts(16px, #444, 400, $lato);
+            line-height: 26px;
+            margin-top: 20px !important;
+            span{
+                display: block;
+                margin-top: 30px !important;
+            }
+        }
+        h2{
+            @include ts(20px, $hover, 500, $monts);
+            margin-top: 40px !important;
+            margin-bottom: 20px !important;
+           
+        }
+      
+    }
+    .about_main_counter{
+        margin-top: 91px;
+        margin-bottom: 91px;
+        .about_counter{
+            h4{
+                @include ts(24px, #999, 700, $monts); 
+                span{
+                    @include ts(60px, $hover, 700, $monts); 
+
+                } 
+                
+            }
+            p{
+                @include ts(24px, #999, 700, $monts);
+              
+            }
+          
+        }
+    }
+    .about_counter_line{
+        margin-bottom: 60px !important;
+        position: relative;
+        p{
+          &::after{
+            @include ab(50%,-30px,70px,3px,$hover);
+            transform: translateX(-50%) !important;
+          }
+        }
+    }
+}

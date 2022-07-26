@@ -1,0 +1,68 @@
+#blog {
+    padding: 90px 0;
+overflow-x: hidden !important;
+    .blog_head {
+        h5 {
+            @include ts(16px, $hover, 600, $monts);
+        }
+
+        h3 {
+            @include ts(28px, #999, 400, $monts);
+            line-height: 34px;
+        }
+    }
+
+    .blog_inner {
+        margin-top: 60px;
+        position: relative;
+
+        .overly {
+            position: absolute;
+            right: 16px;
+            bottom: -30px;
+            text-align: right;
+            border-top: 1px solid $hover;
+            border-bottom: 1px solid $hover;
+            border-left: 1px solid $hover;
+            border-right: 2px solid $hover;
+            background: #fff;
+            padding: 30px 30px 30px;
+            width: 358px;
+
+            h6 {
+                @include ts(14px, #999, 500, $monts);
+            }
+
+            h5 {
+                @include ts(24px, #222, 400, $lato);
+                line-height: 28px;
+            }
+
+            a {
+                @include ts(20px, #222, 500, $monts);
+                position: relative;
+                margin-top: 10px;
+                line-height: 48px;
+                transition: all linear 0.3s;
+                z-index: 9;
+                padding: 0 22px;
+
+                &::after {
+                    @include ab(0, 0, 100%, 3px, $hover);
+                    transition: all linear 0.3s;
+                    z-index: -1;
+
+                }
+
+                &:hover {
+                    color: #fff;
+
+                    &::after {
+                        height: 48px;
+                    }
+                }
+
+            }
+        }
+    }
+}

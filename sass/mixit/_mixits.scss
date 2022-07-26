@@ -1,0 +1,24 @@
+@mixin ts($s, $c, $w, $ff) {
+    font-size: $s;
+    color: $c;
+    font-weight: $w;
+    font-family: $ff;
+}
+@mixin at($l, $t, $w, $h, $bg) {
+    position: absolute;
+    content: '';
+    left: $l;
+    top: $t;
+    width: $w;
+    height: $h;
+    background: $bg;
+}
+@mixin ab($l, $b, $w, $h, $bg) {
+    position: absolute;
+    content: '';
+    left: $l;
+    bottom: $b;
+    width: $w;
+    height: $h;
+    background: $bg;
+}

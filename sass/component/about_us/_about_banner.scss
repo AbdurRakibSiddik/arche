@@ -1,0 +1,26 @@
+#about_banner {
+    padding: 60px 0;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden !important;
+
+    &::after {
+        @include ab(0, 0, 100%, 100%, rgba(0, 0, 0, 0.7));
+        z-index: -1;
+    }
+    .bread{
+        h4{
+            @include ts(44px, $hover, 500, $monts)
+        }
+        a{
+            @include ts(16px, #fff, 400, $monts)
+       
+        }
+        span{
+            color: #fff;
+        }
+        .active{
+            color: $hover;
+        }
+    }
+}

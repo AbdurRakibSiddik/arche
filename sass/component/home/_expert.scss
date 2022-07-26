@@ -1,0 +1,132 @@
+#experts{
+    padding: 60px 0;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden !important;
+    &::after {
+        @include ab(0, 0, 100%, 100%, rgba(0, 0, 0, 0.7));
+        z-index: -1;
+    }
+    .expert_head{
+        h5 {
+            @include ts(16px, $hover, 600, $monts);
+        }
+
+        h3 {
+            @include ts(28px, #fff, 400, $monts);
+            line-height: 34px;
+        }
+    }
+    
+    .experts_row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+
+        .experts_col {
+            max-width: 25%;
+            &:hover{
+                .experts_txt{
+                    p{
+                        color: $hover;
+                    }
+                    h4{
+                        color: $hover;
+                    }
+                } 
+            }
+
+            .experts_img {
+                position: relative;
+                overflow: hidden;
+
+                &:hover {
+                    .overly {
+
+                        height: 100%;
+
+                        .overly_txt {
+                            display: block;
+                        }
+                    }
+                }
+
+                .overly {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 0;
+                    background: rgba(0, 0, 0, 0.7);
+
+                    transition: all linear 0.3s;
+
+                    .overly_txt {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        text-align: center;
+                        transform: translate(-50%, -50%);
+                        display: none;
+
+                        a {
+                            @include ts(16px, #fff, 500, $monts);
+                            width: 160px;
+
+                            h5 {
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .experts_txt {
+                p {
+                    @include ts(14px, #fff, 500, $monts);
+                    margin-top: 10px !important;
+                    transition: all linear 0.3s
+                }
+
+                h4 {
+                    @include ts(20px, #fff, 500, $monts);
+                    margin-top: 5px !important;
+                    margin-bottom: 10px !important;
+                    transition: all linear 0.3s
+                }
+            }
+
+            .over_tow {
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .pro_btn {
+        a {
+            @include ts(20px, #fff, 500, $monts);
+            position: relative;
+            margin-top: 50px;
+            line-height: 48px;
+            transition: all linear 0.3s;
+            z-index: 9;
+            padding: 0 22px;
+
+            &::after {
+                @include ab(0, 0, 100%, 3px, $hover);
+                transition: all linear 0.3s;
+                z-index: -1;
+
+            }
+
+            &:hover {
+                color: #fff;
+
+                &::after {
+                    height: 48px;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,121 @@
+.main_manu {
+    @keyframes manuanimate {
+        from{
+            transform: translateY(-100%);
+        }to{
+            transform: translateY(0);
+        }
+    }
+    &.manu_fix{
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background: #fff;
+        z-index: 9999;
+        animation: manuanimate 0.4s linear;
+        box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.7);
+    }
+    ul {
+        li {
+            position: relative;
+
+            a {
+                @include ts(16px, #444, 500, $monts);
+                text-transform: uppercase;
+                margin-left: 21px;
+                transition: all linear 0.3s;
+
+                &:hover {
+                    color: $hover;
+                    
+                }
+             
+             
+            }
+            &:hover {
+                
+                .sub_manu {
+                    opacity: 1;
+                    bottom: -243px;
+                }
+               
+            }
+            .sub_manu {
+                width: 200px;
+                background: #f5f5f5;
+                position: absolute;
+                left: 0;
+                bottom: -273px;
+                z-index: 99;
+                opacity: 0;
+                margin-top: 30px;
+                transition: all linear 0.3s;
+
+                &::before {
+                    position: absolute;
+                    content: '';
+                    border-bottom: 10px solid #f5f5f5;
+                    border-top: 10px solid transparent;
+                    border-left: 10px solid transparent;
+                    border-right: 10px solid transparent;
+                    left: 50%;
+                    top: -20px;
+                    transform: translateX(-50%);
+                }
+
+                li {
+
+                    a {
+                        margin: 8px 0;
+                    }
+                }
+            }
+
+           
+        }
+    }
+
+    .manu_form {
+        position: relative;
+        width: 190px;
+
+        input {
+            border: none;
+            width: 91px;
+            margin-left: 70px;
+            padding-right: 12px;
+            transition: all linear 0.3s;
+
+            &:focus {
+                box-shadow: none;
+            }
+
+            &::placeholder {
+                @include ts(16px, #999, 500, $monts);
+            }
+
+            &:hover {
+                border: 1px solid #999;
+                width: 155px;
+                margin-left: 30px;
+            }
+        }
+
+        button {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    ul{
+        li{
+            
+                .active {
+                    color: $hover !important;
+                }
+            
+        }
+    }
+}

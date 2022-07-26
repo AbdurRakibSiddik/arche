@@ -1,0 +1,39 @@
+#services_category{
+    padding: 100px 0;
+    .services_cata_overly{
+        .services_cata_overly_txt{
+            border: 1px solid $hover;
+            background: #fff;
+            padding: 35px 0 30px;
+            margin-top: -60px;
+            h5{
+                @include ts(16px, $hover, 500, $monts);
+            }
+            h3{
+                @include ts(24px, #222, 400, $lato);
+                margin-top: 5px !important;
+            }
+        }
+        .serv_cata_txt{
+            margin-top: 60px;
+            p{
+                @include ts(16px, #444, 500, $arimo);
+                line-height: 26px;
+            }
+        }
+        .services_cata_all_list{
+            margin-top: 60px;
+            .serv_cata_list{
+                ul{
+                    li{
+                        i{
+                            color: $hover;
+                        }
+                        @include ts(16px, #444, 500, $arimo); 
+                        line-height: 45px;
+                    }
+                }
+            }
+        }
+    }
+}
